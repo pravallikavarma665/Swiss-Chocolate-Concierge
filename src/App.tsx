@@ -16,6 +16,7 @@ import { CellarJournal } from './components/CellarJournal';
 import { ProductModal } from './components/ProductModal';
 import { BoxDrawer } from './components/BoxDrawer';
 import { Footer } from './components/Footer';
+import { SwissChocolateConcierge } from './components/SwissChocolateConcierge';
 
 export default function App() {
   const [selectedProduct, setSelectedProduct] = useState<ChocolateProduct | null>(null);
@@ -173,6 +174,9 @@ export default function App() {
         onClearBox={handleClearBox}
         onScrollToBuilder={() => scrollToSection('build-box')}
       />
+
+      {/* Floating n8n AI Chat Widget: Swiss Chocolate Concierge */}
+      <SwissChocolateConcierge />
 
       {/* Footer with India Hubs & Demo Notices */}
       <Footer />
