@@ -1,0 +1,6 @@
+{
+  "name": "Swiss Chocolate Concierge",
+  "description": "Artisanal Swiss chocolate recommendation system powered by an Agentic AI multi-agent workflow: Chocolate Expert, Gift Agent, Budget Agent, and Manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
